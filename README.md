@@ -15,7 +15,7 @@ The 'main_process.r' script above churned out a TONNE of .rdata files so I used 
 
 ![wordle wordcloud](https://raw.githubusercontent.com/AugustT/WorldCupFinal/master/graphs/wordle.jpg)
 
-This was pretty good to my eye but then I found [tagxedo](http://www.tagxedo.com/) which goes to another level by allowing you to upload an image which it will use to shape and colour the wordcloud. So I used the world cup logao for my word cloud and create the image below.
+This was pretty good to my eye but then I found [tagxedo](http://www.tagxedo.com/) which goes to another level by allowing you to upload an image which it will use to shape and colour the wordcloud. So I used the world cup logo for my word cloud and created the image below.
 
 ![tagxedo wordcloud](https://raw.githubusercontent.com/AugustT/WorldCupFinal/master/graphs/cup_small.jpg)
 
@@ -24,8 +24,10 @@ The hard core coders will probably think, 'Why didn't you do it all in R?', I th
 How to create a animated kml
 ----------------------------
 
-I came across the sp and rgdal pretty recently and was excited to find out that R can write spatial layers as .kml files which can be opened in Google Earth. I was also amazed to see that you can write .kml files using time and date stamped data and then animate them in Google earth. I used the 'graphs.r' file to read in the tweets and create the animated .kml file 'worldcup.kml'. 
-Opening this .kml file in Google Earth you can create tour viewpoints which Google Earth will pan between. I also changed the icon to the World Cup Logo. With all these changes made I saved the tour as a .kmz file, this allows you to save tour points and icon changes etc. 
-Using [CamStudio](http://camstudio.org/) I then filmed my screen as I panned around the globe with the animation playing. Once I was done I uplaoded the video to YouTube, here is the result:
+I came across the sp and rgdal packages in R pretty recently and was excited to find out that R can write spatial layers as .kml files which can be opened in Google Earth. I was also amazed to see that you can write .kml files using time and date stamped data and then animate them in Google earth. I used the 'graphs.r' file to read in the tweets and create the animated .kml file 'worldcup.kml' (in the graphs folder above). 
+
+Opening this .kml file in Google Earth you can create tour viewpoints which Google Earth will pan between. I also changed the icon to the World Cup Logo. With all these changes made I saved the tour as a .kmz file, this allows you to save tour points and icon changes etc (again, in the graphs folder above).
+
+Using [CamStudio](http://camstudio.org/) I then filmed my screen as I panned around the globe with the animation playing. Once I was done I uplaoded the video to YouTube and added a bit of backing music, here is the result:
 
 [![World Cup Tweets From Space](http://img.youtube.com/vi/nVdeXUwnBo0/0.jpg)](http://www.youtube.com/watch?v=nVdeXUwnBo0)
